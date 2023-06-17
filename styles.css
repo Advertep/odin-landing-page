@@ -134,3 +134,28 @@ button {
     max-height: 200px;
     margin-bottom: 40px;
 }
+
+.quote-block {
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-weight: lighter;
+}
+
+.Auteur {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 200px;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 23px;
+}
