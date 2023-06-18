@@ -4,6 +4,7 @@ body {
 
 p img {
     margin-right: 200px;
+    margin-left: 80px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -14,7 +15,7 @@ p img {
 
 }
 
-header, footer {
+header {
     background-color: #1F2937;
     color: white;
     display: flex;
@@ -92,6 +93,8 @@ button {
     font-size: 19px;
     padding: 5px 14px;
     border-radius: 12px;
+    border-color: white;
+    border-width: 5px;
 } 
 .infoheader { font-size: 36px;
     color: #1F2937;
@@ -164,4 +167,31 @@ button {
     justify-content: flex-end;
     font-weight: bold;
     font-size: 23px;
+}
+
+.funnel { 
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    margin: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: flex-start;
+}
+.funnel-right { 
+    display: flex;
+    align-self: flex-end;
+    padding-left: 200px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    margin: 0 -500%;
+    padding: 22px;
 }
